@@ -1,0 +1,12 @@
+= Jobs Board
+== Week 7 of my 12 in 12 Challenge
+
+My goal with this challenge is to teach myself Ruby on Rails by building a new web app (using rails) each week for 12 weeks.
+
+This week I build a Jobs Board application. We have the ability to Add, Edit, Destroy jobs postings and each job post is assigned to a category, and we are able to filter between the various categories to see only jobs within that category (For example, only "Full-Time" jobs).
+
+Interested in learning how to build this application? Watch a Screencast on how I built it {here}[https://www.youtube.com/user/mackenziechild]
+
+---
+
+You can find me on {Twitter}[http://twitter.com/mackenziechild] or follow along for more Rails on my website {MackenzieChild.me}[http://mackenziechild.me]

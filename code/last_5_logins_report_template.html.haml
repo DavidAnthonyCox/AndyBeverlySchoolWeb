@@ -1,0 +1,17 @@
+%html
+  %body
+    %h1 Last 5 Logins & Their Grades Report
+    %p
+    %table{:border => 1}
+      %tbody
+        %tr
+          %th User ID
+          %th Grade
+          %th Date Graded
+        - grades.each do |this_grade|
+          / = binding.pry
+          %tr
+            %td= this_grade["userid"].to_s
+            %td= this_grade["str_grade"] + "%"
+            %td= this_grade["dategraded"].to_s
+        

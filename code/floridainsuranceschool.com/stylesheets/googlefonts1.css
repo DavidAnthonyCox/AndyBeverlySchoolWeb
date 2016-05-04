@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Meie Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Meie Script'), local('MeieScript-Regular'), url(http://fonts.gstatic.com/s/meiescript/v4/lwxuZ_zJQzRwnOocgbPAFCwlidHJgAgmTjOEEzwu1L8.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Swanky and Moo Moo';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Swanky and Moo Moo'), local('SwankyandMooMoo'), url(http://fonts.gstatic.com/s/swankyandmoomoo/v6/orVNZ9kDeE3lWp3U3YELu2WHY9iboOoH8OsBr4ISUGM.ttf) format('truetype');
+}
+

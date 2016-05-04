@@ -1,0 +1,43 @@
+table.ccm-core-commerce-cart {width: 100%}
+table.ccm-core-commerce-cart td, table.ccm-core-commerce-cart th {padding: 8px;}
+table.ccm-core-commerce-cart td {border-bottom: 1px dotted #aaa;}
+table.ccm-core-commerce-cart th {border-bottom: 1px solid #333}
+table.ccm-core-commerce-cart th {text-align: center; font-weight: bold}
+table.ccm-core-commerce-cart .ccm-core-commerce-cart-quantity {text-align: center}
+table.ccm-core-commerce-cart .ccm-core-commerce-cart-name {text-align: left;}
+table.ccm-core-commerce-cart .ccm-core-commerce-cart-thumbnail {text-align: center; width: 120px}
+table.ccm-core-commerce-cart .ccm-core-commerce-cart-quantity input {width: 20px !important}
+table.ccm-core-commerce-cart .ccm-core-commerce-cart-width {width: 100%}
+
+div.ccm-core-commerce-cart-buttons {margin-top: 8px}
+input.ccm-core-commerce-cart-buttons-checkout {float: right; margin-left: 4px}
+img#ccm-core-commerce-cart-update-loader {float: right; margin-top: 4px; display:none}
+div.ccm-core-commerce-add-to-cart-lightbox-caption {display: none}
+
+tr.ccm-core-commerce-cart-subtotal td {background-color: #efefef; font-weight: bold; color: #333}
+img.ccm-core-commerce-add-to-cart-loader {display: none; vertical-align: middle; margin-left: 4px;}
+td.ccm-core-commerce-add-to-cart-thumbnail-left {padding-right: 6px}
+td.ccm-core-commerce-add-to-cart-thumbnail-right {padding-left: 6px}
+td.ccm-core-commerce-add-to-cart-thumbnail-top {padding-bottom: 6px;}
+td.ccm-core-commerce-add-to-cart-thumbnail-bottom {padding-top: 6px;}
+div.ccm-core-commerce-add-to-cart-callout {display: none; z-index: 105; position: absolute;top: 0px; left: 0px; width: 400px; padding: 10px; background-color: #fff; border: 3px solid #ddd}
+div.ccm-core-commerce-add-to-cart-callout-image {text-align: center; margin-bottom: 8px}
+
+#ccm-core-commerce-cart-form .ccm-error {color: #f00; font-weight: normal}
+#ccm-core-commerce-cart-form ul.ccm-error {font-size: 12px; list-style-type: none; padding: 0px; margin: 0px 0px 0px 0px}
+#ccm-core-commerce-cart-form ul.ccm-error li {margin-bottom: 8px; color: #f00;}
+
+tr.ccm-core-commercial-cart-total-note td {text-align: center; font-weight: bold;}
+div.rating-cancel,div.rating-star{float:left;width:16px;height:15px;text-indent:-999em;cursor:pointer;display:block;background:transparent;overflow:hidden;}
+div.rating-cancel,div.rating-cancel a{background:url('../../../concrete/images/delete_rating.gif') no-repeat 0 -16px;}
+div.rating-star,div.rating-star a{background:url('../../../concrete/images/rating_star.png') no-repeat 0 0px;}
+div.rating-cancel a,div.rating-star a{display:block;width:16px;height:100%;background-position:0 0px;border:0;}
+div.rating-star-on a{background-position:0 -16px;}
+div.rating-star-hover a{background-position:0 -32px;}
+div.rating-star-readonly a{cursor:default;text-decoration:none;}
+div.rating-star{background:transparent;overflow:hidden;}
+input.rating-star-control{display:none;}
+.rating-cancel{display:none;}
+div.rating-star-on-half a{background-position:0 -48px;}
+div.ccm-rating input{display:none;}
+div.ccm-rating{white-space:nowrap;}

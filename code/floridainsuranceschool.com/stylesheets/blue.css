@@ -1,0 +1,41 @@
+.mega-menuh ul, .mega-menuh ul li {list-style: none;}
+.mega-menuh ul {position: relative; padding: 0; margin: 0;}
+.mega-menuh ul li ul {display: none;}
+.mega-menuh .sub {display: none;}
+.mega-menuh .sub ul {display: block;}
+
+.blue {font: normal 13px Arial, sans-serif !important; line-height: 16px !important;}
+.blue ul.mega-menuh, .blue ul.mega-menuh, .blue ul.mega-menuh li {margin: 0; padding: 0; border: none;}
+.blue ul.mega-menuh{background: #8998a8 url(images/bg_blue.png) repeat-x 0 -80px; width: 100%; height: 40px; /*border-right: 1px solid #536573; border-left: 1px solid #536573;*/ position: relative;}
+.blue ul.mega-menuh li {float: left; margin: 0; padding: 0 !important; font-size: 13px !important; font-weight: bold;}
+.blue ul.mega-menuh li a {float: left; display: block; color: #fff !important; padding: 12px 38px 12px 25px !important; background: url(images/bg_blue.png) repeat-x 100% 0; text-shadow: 1px 1px 1px #000; text-decoration: none !important;}
+.blue ul.mega-menuh li a.dc-mega {position: relative;}
+.blue ul.mega-menuh li a .dc-mega-icon {display: block; position: absolute; top: 18px; right: 15px; width: 8px; height: 6px; background: url(images/arrow.png) no-repeat 0 0;}
+.blue ul.mega-menuh li.mega-hover a, .blue ul.mega-menuh li a:hover {background-position: 100% -40px; color: #000 !important; text-shadow: none;}
+.blue ul.mega-menuh li.mega-hover a .dc-mega-icon {background-position: 0 100%;}
+.blue ul.mega-menuh li .sub-container {position: absolute; /*background: url(images/bg_sub_left.png) no-repeat 0 100%;*/ padding-left: 20px; margin-left: 0px;}
+.blue ul.mega-menuh li .sub {/*background: url(images/bg_sub.png) no-repeat 100% 100%;*/ padding: 20px 20px 20px 10px;}
+.blue ul.mega-menuh li .sub-container.mega .sub {padding: 0px 0px 10px 0;}
+.blue ul.mega-menuh li .sub .row {width: 100%; overflow: hidden; clear: both;}
+.blue ul.mega-menuh li .sub li {list-style: none; float: none; width: 170px; font-size: 1em; font-weight: normal;}
+.blue ul.mega-menuh li .sub li.mega-hdr {margin: 0 10px 10px 0 !important; float: left;}
+.blue ul.mega-menuh li .sub li.mega-hdr.last {margin-right: 0;}
+.blue ul.mega-menuh li .sub a, .blue ul.mega-menuh li .sub span {background: none; border: none; text-shadow: none; color: #111; padding: 7px 10px; display: block; float: none; text-decoration: none; font-size: 0.9em;}
+.blue ul.mega-menuh li .sub li.mega-hdr .mega-hdr-a {padding: 5px 5px 5px 15px !important; margin-bottom: 5px; /*background: #304B73 url(images/bg_mega_hdr.png) no-repeat 0 0 !important;*/ text-transform: uppercase; font-weight: bold; color: #fff !important; text-shadow: 1px 1px 1px #333;}
+.blue ul.mega-menuh li .sub li.mega-hdr a.mega-hdr-a:hover {color: #A8B7CF !important; text-shadow: none;}
+.blue ul.mega-menuh .sub li.mega-hdr li a {padding: 4px 5px 4px 20px !important; background: url(images/arrow_off.png) no-repeat 5px 8px; font-weight: normal;}
+.blue ul.mega-menuh .sub li.mega-hdr li a:hover {color: #a32403 !important; /*background: #efefef url(images/arrow_on.png) no-repeat 5px 8px !important;*/}
+.blue ul.mega-menuh .sub ul li {padding-right: 0;}
+.blue ul.mega-menuh li .sub-container.non-mega .sub {padding: 0px;}
+.blue ul.mega-menuh li .sub-container.non-mega li {padding: 0; width: 190px; margin: 0;}
+.blue ul.mega-menuh li .sub-container.non-mega li a {padding: 7px 5px 7px 22px !important; background: url(images/arrow_off.png) no-repeat 7px 10px;}
+.blue ul.mega-menuh li .sub-container.non-mega li a:hover {color: #a32403; /*background: #efefef url(images/arrow_on.png) no-repeat 7px 10px !important;*/}
+
+@media only screen and (max-width: 480px) {
+  .jbmm.responsive.blue ul.mega-menuh{
+    background: #8998a8 url(images/bg_blue_mob.png) repeat-x 0 -80px;
+  }
+  .jbmm.responsive.blue ul.mega-menuh li a{
+    background: url(images/bg_blue_mob.png) repeat-x 100% 0;
+  }
+}

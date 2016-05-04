@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<title>Movie Player</title>
+	<script language="javascript">
+		function getUrlVars() {
+			var vars = {};
+			var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+			vars[key] = value;
+    		});
+		    return vars;
+		}
+		var moviename=getUrlVars()["movie"];
+		var movieheight=getUrlVars()["height"];
+		var moviewidth=getUrlVars()["width"];
+	</script>
+	<style type="text/css">
+		<!--
+		body { text-align: center; margin-top: 0px; padding: 0px;}
+		#container { text-align: left; }
+		-->
+	</style>
+	<script type='text/javascript' src='jwplayer.js'></script>
+	<script>jwplayer.key="jr+6yil/VgeFdcS87GWm7yfq+304w79re6rJPJis9Ck="</script>
+</head>
+<body>
+<div id="container">Loading...<br /><br />
+<strong>Important - Please Note:</strong><br />
+IE Users may have to manually instruct their browser to play the movies, this is due to the ActiveX settings in IE. We strongly recommend for the best user experience that users view the movies either with FireFox <a href="http://www.firefox.com">http://www.firefox.com</a> or with Google Chrome <a href="https://www.google.com/chrome">https://www.google.com/chrome</a>.
+</div>
+
+<script type="text/javascript">
+	jwplayer("container").setup({
+	file: "../data/movies/"+moviename,
+	height: movieheight,
+	width: moviewidth,
+	autostart: true,
+	abouttext: "Infinite Skills",
+	aboutlink: "http://www.infiniteskills.com/about-us.html",
+	});
+</script>
+<a href='javascript: window.close();'>Close Window</a>
+</body>
+</html>

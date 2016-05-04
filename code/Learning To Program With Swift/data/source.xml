@@ -1,0 +1,79 @@
+<FTVP>
+	<config sidewidth="250" defaultmovie="default.mp4" defaultwidth="1024" defaultheight="576" hasfiles="true">
+		<author name="T. Michael Rogers" photo="author.jpg" />
+		<description>
+			<![CDATA[
+In this Learning to Program with Swift training course, expert author T. Michael Rogers will teach you how to program with Swift for iOS and Mac OS. This course is designed for beginner and experienced developers, and knowledge of Java, C#, or other modern languages is recommended. 
+
+You will start with an introduction to Swift, including learning how to define constants and variables and learning about conditional statements and control flow statements. From there, Rogers will teach you about the Swift language features. This video tutorial will also cover Swift classes and inheritance, as well as enumerations, structures, generics, and operators. Finally, you will see Swift in action as you watch Rogers demonstrate a Master-Detail application. 
+
+Once you have completed this computer based training course, you will be fully capable of using Swift’s modern features to program for iOS and Mac OS.  Working files are included, allowing you to follow along with the author throughout the lessons.
+			]]>
+		</description>
+	</config>
+	<tutorial title="Learning To Program With Swift" id="01992" disk="1">
+		<section label="01. Introduction To Swift">
+			<children label="Welcome To The Course" source="0101.mp4" moviewidth="1280" movieheight="720" />
+			<children label="Author Introduction" source="0102.mp4" moviewidth="1280" movieheight="720" />
+			<children label="Introduction To Swift" source="0103.mp4" moviewidth="1280" movieheight="720" />
+			<children label="Swift Vs Objective-C" source="0104.mp4" moviewidth="1280" movieheight="720" />
+			<children label="How To Access Your Working Files" source="0105.mp4" moviewidth="1280" movieheight="720" />
+			<children label="Xcode Playgrounds" source="0106.mp4" moviewidth="1280" movieheight="720" />
+		</section>
+		<section label="02. Getting Started With Swift">
+			<children label="Defining Constants With Let" source="0201.mp4" moviewidth="1280" movieheight="720" />
+			<children label="Defining Variables With Var" source="0202.mp4" moviewidth="1280" movieheight="720" />
+			<children label="Type Annotations And Inference" source="0203.mp4" moviewidth="1280" movieheight="720" />
+			<children label="Defining Functions" source="0204.mp4" moviewidth="1280" movieheight="720" />
+			<children label="Function Parameters" source="0205.mp4" moviewidth="1280" movieheight="720" />
+			<children label="In/Out Parameters" source="0206.mp4" moviewidth="1280" movieheight="720" />
+			<children label="Tuples" source="0207.mp4" moviewidth="1280" movieheight="720" />
+			<children label="Conditional Statements: If" source="0208.mp4" moviewidth="1280" movieheight="720" />
+			<children label="Conditional Statements: Switch" source="0209.mp4" moviewidth="1280" movieheight="720" />
+			<children label="Loops: For" source="0210.mp4" moviewidth="1280" movieheight="720" />
+			<children label="Loops: For-In" source="0211.mp4" moviewidth="1280" movieheight="720" />
+			<children label="Loops: While" source="0212.mp4" moviewidth="1280" movieheight="720" />
+			<children label="Control Flow Statements" source="0213.mp4" moviewidth="1280" movieheight="720" />
+		</section>
+		<section label="03. Swift Language Features">
+			<children label="Automatic Reference Counting Overview" source="0301.mp4" moviewidth="1280" movieheight="720" />
+			<children label="Strong And Weak References In Arc" source="0302.mp4" moviewidth="1280" movieheight="720" />
+			<children label="Closures Overview" source="0303.mp4" moviewidth="1280" movieheight="720" />
+			<children label="Closure Capturing Values" source="0304.mp4" moviewidth="1280" movieheight="720" />
+			<children label="Trailing Closures" source="0305.mp4" moviewidth="1280" movieheight="720" />
+			<children label="Array Collections" source="0306.mp4" moviewidth="1280" movieheight="720" />
+			<children label="Dictionaries" source="0307.mp4" moviewidth="1280" movieheight="720" />
+		</section>
+		<section label="04. Swift Classes And Inheritance">
+			<children label="Classes" source="0401.mp4" moviewidth="1280" movieheight="720" />
+			<children label="Class Initializers" source="0402.mp4" moviewidth="1280" movieheight="720" />
+			<children label="Class Methods" source="0403.mp4" moviewidth="1280" movieheight="720" />
+			<children label="Class Properties" source="0404.mp4" moviewidth="1280" movieheight="720" />
+			<children label="Inheritance" source="0405.mp4" moviewidth="1280" movieheight="720" />
+			<children label="Type Casting" source="0406.mp4" moviewidth="1280" movieheight="720" />
+			<children label="The Anyobject" source="0407.mp4" moviewidth="1280" movieheight="720" />
+			<children label="Defining Protocols" source="0408.mp4" moviewidth="1280" movieheight="720" />
+			<children label="Implementing Protocols" source="0409.mp4" moviewidth="1280" movieheight="720" />
+			<children label="Class Extensions" source="0410.mp4" moviewidth="1280" movieheight="720" />
+		</section>
+		<section label="05. Swift Enumerations, Structures, Generics And Operators">
+			<children label="Enumerations" source="0501.mp4" moviewidth="1280" movieheight="720" />
+			<children label="Associated Values" source="0502.mp4" moviewidth="1280" movieheight="720" />
+			<children label="Enumeration Raw Values" source="0503.mp4" moviewidth="1280" movieheight="720" />
+			<children label="Structures" source="0504.mp4" moviewidth="1280" movieheight="720" />
+			<children label="Generic Functions" source="0505.mp4" moviewidth="1280" movieheight="720" />
+			<children label="Generic Types" source="0506.mp4" moviewidth="1280" movieheight="720" />
+			<children label="Optional Chaining" source="0507.mp4" moviewidth="1280" movieheight="720" />
+			<children label="Bitwise Operators" source="0508.mp4" moviewidth="1280" movieheight="720" />
+			<children label="And, Or, Xor" source="0509.mp4" moviewidth="1280" movieheight="720" />
+			<children label="Overloading Operators" source="0510.mp4" moviewidth="1280" movieheight="720" />
+		</section>
+		<section label="06. Swift In Action">
+			<children label="Master View: Task List" source="0601.mp4" moviewidth="1280" movieheight="720" />
+			<children label="Detail View: Task Edit" source="0602.mp4" moviewidth="1280" movieheight="720" />
+		</section>
+		<section label="07. Conclusion">
+			<children label="Review" source="0701.mp4" moviewidth="1280" movieheight="720" />
+		</section>
+	</tutorial>
+</FTVP>

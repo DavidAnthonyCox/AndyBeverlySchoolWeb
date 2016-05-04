@@ -1,0 +1,49 @@
+ul#mega-menuh-544 div.sub-container.mega,ul#mega-menuh-544 div.sub-container.non-mega {
+-webkit-border-radius: 0 0 8px 8px;
+-moz-border-radius: 0 0 8px 8px;
+border-radius: 0 0 8px 8px;
+-webkit-box-shadow: #888 0px 2px 3px;
+-moz-box-shadow: #888 0px 2px 3px;
+box-shadow: #888 0px 2px 3px;
+background: #ffffff;
+background: -webkit-gradient(linear, 0 0, 0 bottom, from(#ffffff), to(#ffffff));
+background: -webkit-linear-gradient(#ffffff, #ffffff);
+background: -moz-linear-gradient(#ffffff, #ffffff);
+background: -ms-linear-gradient(#ffffff, #ffffff);
+background: -o-linear-gradient(#ffffff, #ffffff);
+background: linear-gradient(#ffffff, #ffffff);
+-pie-background: linear-gradient(#ffffff, #ffffff);
+behavior: url(http://floridainsuranceschool.com/packages/jb_megamenu/blocks/jb_megamenu/js/PIE.php);
+}
+ul#mega-menuh-544>li>div>ul.sub>li>a,
+ul#mega-menuh-544>li>div>ul.sub>div.row>li.mega-hdr>ul.sub_menu>li>a {
+color: #d62222 !important;
+}
+ul#mega-menuh-544>li>div>ul.sub>li>a:hover,
+ul#mega-menuh-544>li>div>ul.sub>div.row>li.mega-hdr>ul.sub_menu>li>a:hover {
+color: #6b6b6b !important;
+}
+ul#mega-menuh-544 li .sub-container.non-mega li a:hover,
+ul#mega-menuh-544 .sub li.mega-hdr li a:hover {
+background: #d1d1d1;
+background: -webkit-gradient(linear, 0 0, 0 bottom, from(#d1d1d1), to(#949494));
+background: -webkit-linear-gradient(#d1d1d1, #949494);
+background: -moz-linear-gradient(#d1d1d1, #949494);
+background: -ms-linear-gradient(#d1d1d1, #949494);
+background: -o-linear-gradient(#d1d1d1, #949494);
+background: linear-gradient(#d1d1d1, #949494);
+-pie-background: linear-gradient(#d1d1d1, #949494);
+}
+ul#mega-menuh-544 li .sub li.mega-hdr .mega-hdr-a {
+background: #6b6b6b !important;
+color: #ffffff !important;
+-webkit-border-radius: 5px 5px 0 0;
+-moz-border-radius: 5px 5px 0 0;
+border-radius: 5px 5px 0 0;
+behavior: url(http://floridainsuranceschool.com/packages/jb_megamenu/blocks/jb_megamenu/js/PIE.php);
+}
+ul#mega-menuh-544 li .sub li.mega-hdr .mega-hdr-a:hover {
+background: #cccccc !important;
+color: #000000 !important;
+}
+
